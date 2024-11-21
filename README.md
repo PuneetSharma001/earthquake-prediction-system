@@ -1,6 +1,6 @@
 # earthquake-prediction-system
 
-Overview
+Overview:
 This project uses machine learning to predict earthquake magnitudes based on historical seismic data. The system integrates data preprocessing, Exploratory Data Analysis (EDA), and models like Random Forest, Linear Regression, and SVR. It features a Flask web application where users input parameters like latitude, longitude, and depth to get real-time earthquake magnitude predictions.
 
 Technologies Used:
