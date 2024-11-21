@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earthquake Prediction</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Earthquake Magnitude Prediction</h1>
+        <form action="predict" method="POST">
+            <label>Latitude:</label>
+            <input type="number" step="0.01" name="latitude" required>
+            <label>Longitude:</label>
+            <input type="number" step="0.01" name="longitude" required>
+            <label>Depth (km):</label>
+            <input type="number" step="0.01" name="depth" required>
+            <label>Number of Stations (nst):</label>
+            <input type="number" name="nst" required>
+            <label>Gap (degrees):</label>
+            <input type="number" step="0.01" name="gap" required>
+            <label>Minimum Distance (dmin):</label>
+            <input type="number" step="0.01" name="dmin" required>
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+</body>
+</html>
